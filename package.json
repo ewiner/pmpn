@@ -1,0 +1,39 @@
+{
+    "name": "pmpn",
+    "version": "1.0.0",
+    "description": "Typosafe wrapper for pnpm",
+    "main": "dist/index.js",
+    "bin": {
+      "pmpn": "dist/index.js"
+    },
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "tsc",
+      "start": "pnpm run build && node dist/index.js",
+      "lint": "eslint . --ext .ts"
+    },
+    "keywords": [
+      "pnpm",
+      "cli",
+      "ascii-art"
+    ],
+    "author": "Eric Winer",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ewiner/pmpn.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "@types/node": "^22.13.14",
+      "typescript": "^5.2.2",
+      "eslint": "^9.23.0",
+      "@typescript-eslint/eslint-plugin": "^8.28.0",
+      "@typescript-eslint/parser": "^8.28.0"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
