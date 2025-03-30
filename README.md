@@ -15,13 +15,18 @@ So, inspired by [gti](https://github.com/rwos/gti), which is in turn inspired by
 ```bash
 pnpm add -g pmpn
 ```
+or ```bash
+npm install -g pmpn
+```
 
 ## Usage
 
 ```bash
-$ pmpn [command] [flags]
+pmpn [command] [flags]
 ```
 and enjoy the show.
+
+![demo GIF](demo.gif)
 
 ## License
 

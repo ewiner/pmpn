@@ -1,7 +1,7 @@
 {
     "name": "pmpn",
     "version": "1.0.0",
-    "description": "Typosafe wrapper for pnpm",
+    "description": "A typosafe wrapper for pnpm",
     "main": "dist/index.js",
     "bin": {
       "pmpn": "dist/index.js"
