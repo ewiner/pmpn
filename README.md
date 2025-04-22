@@ -15,7 +15,8 @@ So, inspired by [gti](https://github.com/rwos/gti), which is in turn inspired by
 ```bash
 pnpm add -g pmpn
 ```
-or ```bash
+or 
+```bash
 npm install -g pmpn
 ```
 
